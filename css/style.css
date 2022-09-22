@@ -1,0 +1,55 @@
+/* Skip to Content Button */
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 7px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -50px;
+}
+.skip a:focus {
+    position: absolute;
+    top: -10px;
+}
+
+/* Navigation */
+
+#navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+#home_page #navigation #home a {
+    color: blue;
+    font-size: x-large;
+}
+
+#about_page #navigation #about a {
+    color: blue;
+    font-size: x-large;
+}
+
+#works_page #navigation #works a {
+    color: blue;
+    font-size: x-large;
+}
+
+#contact_page #navigation #contact a {
+    color: blue;
+    font-size: x-large;
+}
+
+/* Images */
